@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <name>
+    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0">
+      Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipogr&#135;fica (info@huertatipografica.com.ar)
+    </namerecord>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0">
+      Yanone Kaffeesatz
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0">
+      Bold
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0">
+      1.100;UKWN;YanoneKaffeesatz-Bold
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0">
+      Yanone Kaffeesatz Bold
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0">
+      Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0">
+      YanoneKaffeesatz-Bold
+    </namerecord>
+    <namerecord nameID="8" platformID="1" platEncID="0" langID="0x0">
+      Yanone
+    </namerecord>
+    <namerecord nameID="9" platformID="1" platEncID="0" langID="0x0">
+      Yanone (Cyrillic: Daniel Pouzeot &amp; Huerta Tipografica)
+    </namerecord>
+    <namerecord nameID="11" platformID="1" platEncID="0" langID="0x0">
+      http://yanone.de
+    </namerecord>
+    <namerecord nameID="12" platformID="1" platEncID="0" langID="0x0">
+      http://yanone.de
+    </namerecord>
+    <namerecord nameID="13" platformID="1" platEncID="0" langID="0x0">
+      SIL Open Font License
+    </namerecord>
+    <namerecord nameID="14" platformID="1" platEncID="0" langID="0x0">
+      http://scripts.sil.org/OFL
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipogr&#225;fica (info@huertatipografica.com.ar)
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      Yanone Kaffeesatz
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Bold
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      1.100;UKWN;YanoneKaffeesatz-Bold
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      Yanone Kaffeesatz Bold
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      YanoneKaffeesatz-Bold
+    </namerecord>
+    <namerecord nameID="8" platformID="3" platEncID="1" langID="0x409">
+      Yanone
+    </namerecord>
+    <namerecord nameID="9" platformID="3" platEncID="1" langID="0x409">
+      Yanone (Cyrillic: Daniel Pouzeot &amp; Huerta Tipografica)
+    </namerecord>
+    <namerecord nameID="11" platformID="3" platEncID="1" langID="0x409">
+      http://yanone.de
+    </namerecord>
+    <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
+      http://yanone.de
+    </namerecord>
+    <namerecord nameID="13" platformID="3" platEncID="1" langID="0x409">
+      SIL Open Font License
+    </namerecord>
+    <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
+      http://scripts.sil.org/OFL
+    </namerecord>
+  </name>
+
+</ttFont>

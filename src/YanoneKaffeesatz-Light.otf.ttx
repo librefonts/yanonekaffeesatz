@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+  <GlyphOrder src="YanoneKaffeesatz-Light.otf.GlyphOrder.ttx"/>
+  <head src="YanoneKaffeesatz-Light.otf._h_e_a_d.ttx"/>
+  <hhea src="YanoneKaffeesatz-Light.otf._h_h_e_a.ttx"/>
+  <maxp src="YanoneKaffeesatz-Light.otf._m_a_x_p.ttx"/>
+  <OS_2 src="YanoneKaffeesatz-Light.otf.O_S_2f_2.ttx"/>
+  <name src="YanoneKaffeesatz-Light.otf._n_a_m_e.ttx"/>
+  <cmap src="YanoneKaffeesatz-Light.otf._c_m_a_p.ttx"/>
+  <post src="YanoneKaffeesatz-Light.otf._p_o_s_t.ttx"/>
+  <CFF src="YanoneKaffeesatz-Light.otf.C_F_F_.ttx"/>
+  <GDEF src="YanoneKaffeesatz-Light.otf.G_D_E_F_.ttx"/>
+  <GPOS src="YanoneKaffeesatz-Light.otf.G_P_O_S_.ttx"/>
+  <GSUB src="YanoneKaffeesatz-Light.otf.G_S_U_B_.ttx"/>
+  <hmtx src="YanoneKaffeesatz-Light.otf._h_m_t_x.ttx"/>
+</ttFont>
