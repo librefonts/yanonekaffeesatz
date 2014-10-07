@@ -1,0 +1,765 @@
+# Bake Begins!
+### (1 of 6) Copy sources
+$ cp -a /home/travis/build/fontdirectory/yanonekaffeesatz/METADATA.json /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build
+$ cp -a /home/travis/build/fontdirectory/yanonekaffeesatz/DESCRIPTION.en_us.html /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build
+$ cp -a YanoneKaffeesatz-Regular.ttf.ttx YanoneKaffeesatz-Light.ttf.ttx YanoneKaffeesatz-ExtraLight.ttf.ttx YanoneKaffeesatz-Bold.ttf.ttx src/YanoneKaffeesatz-Regular.otf.ttx src/YanoneKaffeesatz-Light.otf.ttx src/YanoneKaffeesatz-ExtraLight.otf.ttx src/YanoneKaffeesatz-Bold.otf.ttx YanoneKaffeesatz-Regular.ttf._p_r_e_p.ttx YanoneKaffeesatz-Regular.ttf._p_o_s_t.ttx YanoneKaffeesatz-Regular.ttf._n_a_m_e.ttx YanoneKaffeesatz-Regular.ttf._m_a_x_p.ttx YanoneKaffeesatz-Regular.ttf._l_o_c_a.ttx YanoneKaffeesatz-Regular.ttf._h_m_t_x.ttx YanoneKaffeesatz-Regular.ttf._h_h_e_a.ttx YanoneKaffeesatz-Regular.ttf._h_e_a_d.ttx YanoneKaffeesatz-Regular.ttf._g_l_y_f.ttx YanoneKaffeesatz-Regular.ttf._g_a_s_p.ttx YanoneKaffeesatz-Regular.ttf._f_p_g_m.ttx YanoneKaffeesatz-Regular.ttf._c_v_t.ttx YanoneKaffeesatz-Regular.ttf._c_m_a_p.ttx YanoneKaffeesatz-Regular.ttf.O_S_2f_2.ttx YanoneKaffeesatz-Regular.ttf.GlyphOrder.ttx YanoneKaffeesatz-Regular.ttf.G_S_U_B_.ttx YanoneKaffeesatz-Regular.ttf.G_P_O_S_.ttx YanoneKaffeesatz-Regular.ttf.G_D_E_F_.ttx YanoneKaffeesatz-Regular.ttf.F_F_T_M_.ttx YanoneKaffeesatz-Light.ttf._p_r_e_p.ttx YanoneKaffeesatz-Light.ttf._p_o_s_t.ttx YanoneKaffeesatz-Light.ttf._n_a_m_e.ttx YanoneKaffeesatz-Light.ttf._m_a_x_p.ttx YanoneKaffeesatz-Light.ttf._l_o_c_a.ttx YanoneKaffeesatz-Light.ttf._h_m_t_x.ttx YanoneKaffeesatz-Light.ttf._h_h_e_a.ttx YanoneKaffeesatz-Light.ttf._h_e_a_d.ttx YanoneKaffeesatz-Light.ttf._g_l_y_f.ttx YanoneKaffeesatz-Light.ttf._g_a_s_p.ttx YanoneKaffeesatz-Light.ttf._f_p_g_m.ttx YanoneKaffeesatz-Light.ttf._c_v_t.ttx YanoneKaffeesatz-Light.ttf._c_m_a_p.ttx YanoneKaffeesatz-Light.ttf.O_S_2f_2.ttx YanoneKaffeesatz-Light.ttf.GlyphOrder.ttx YanoneKaffeesatz-Light.ttf.G_S_U_B_.ttx YanoneKaffeesatz-Light.ttf.G_P_O_S_.ttx YanoneKaffeesatz-Light.ttf.G_D_E_F_.ttx YanoneKaffeesatz-Light.ttf.F_F_T_M_.ttx YanoneKaffeesatz-ExtraLight.ttf._p_r_e_p.ttx YanoneKaffeesatz-ExtraLight.ttf._p_o_s_t.ttx YanoneKaffeesatz-ExtraLight.ttf._n_a_m_e.ttx YanoneKaffeesatz-ExtraLight.ttf._m_a_x_p.ttx YanoneKaffeesatz-ExtraLight.ttf._l_o_c_a.ttx YanoneKaffeesatz-ExtraLight.ttf._h_m_t_x.ttx YanoneKaffeesatz-ExtraLight.ttf._h_h_e_a.ttx YanoneKaffeesatz-ExtraLight.ttf._h_e_a_d.ttx YanoneKaffeesatz-ExtraLight.ttf._g_l_y_f.ttx YanoneKaffeesatz-ExtraLight.ttf._g_a_s_p.ttx YanoneKaffeesatz-ExtraLight.ttf._f_p_g_m.ttx YanoneKaffeesatz-ExtraLight.ttf._c_v_t.ttx YanoneKaffeesatz-ExtraLight.ttf._c_m_a_p.ttx YanoneKaffeesatz-ExtraLight.ttf.O_S_2f_2.ttx YanoneKaffeesatz-ExtraLight.ttf.GlyphOrder.ttx YanoneKaffeesatz-ExtraLight.ttf.G_S_U_B_.ttx YanoneKaffeesatz-ExtraLight.ttf.G_P_O_S_.ttx YanoneKaffeesatz-ExtraLight.ttf.G_D_E_F_.ttx YanoneKaffeesatz-ExtraLight.ttf.F_F_T_M_.ttx YanoneKaffeesatz-Bold.ttf._p_r_e_p.ttx YanoneKaffeesatz-Bold.ttf._p_o_s_t.ttx YanoneKaffeesatz-Bold.ttf._n_a_m_e.ttx YanoneKaffeesatz-Bold.ttf._m_a_x_p.ttx YanoneKaffeesatz-Bold.ttf._l_o_c_a.ttx YanoneKaffeesatz-Bold.ttf._h_m_t_x.ttx YanoneKaffeesatz-Bold.ttf._h_h_e_a.ttx YanoneKaffeesatz-Bold.ttf._h_e_a_d.ttx YanoneKaffeesatz-Bold.ttf._g_l_y_f.ttx YanoneKaffeesatz-Bold.ttf._g_a_s_p.ttx YanoneKaffeesatz-Bold.ttf._f_p_g_m.ttx YanoneKaffeesatz-Bold.ttf._c_v_t.ttx YanoneKaffeesatz-Bold.ttf._c_m_a_p.ttx YanoneKaffeesatz-Bold.ttf.O_S_2f_2.ttx YanoneKaffeesatz-Bold.ttf.GlyphOrder.ttx YanoneKaffeesatz-Bold.ttf.G_S_U_B_.ttx YanoneKaffeesatz-Bold.ttf.G_P_O_S_.ttx YanoneKaffeesatz-Bold.ttf.G_D_E_F_.ttx YanoneKaffeesatz-Bold.ttf.F_F_T_M_.ttx src/YanoneKaffeesatz-Regular.otf._p_o_s_t.ttx src/YanoneKaffeesatz-Regular.otf._n_a_m_e.ttx src/YanoneKaffeesatz-Regular.otf._m_a_x_p.ttx src/YanoneKaffeesatz-Regular.otf._h_m_t_x.ttx src/YanoneKaffeesatz-Regular.otf._h_h_e_a.ttx src/YanoneKaffeesatz-Regular.otf._h_e_a_d.ttx src/YanoneKaffeesatz-Regular.otf._c_m_a_p.ttx src/YanoneKaffeesatz-Regular.otf.O_S_2f_2.ttx src/YanoneKaffeesatz-Regular.otf.GlyphOrder.ttx src/YanoneKaffeesatz-Regular.otf.G_S_U_B_.ttx src/YanoneKaffeesatz-Regular.otf.G_P_O_S_.ttx src/YanoneKaffeesatz-Regular.otf.G_D_E_F_.ttx src/YanoneKaffeesatz-Regular.otf.C_F_F_.ttx src/YanoneKaffeesatz-Light.otf._p_o_s_t.ttx src/YanoneKaffeesatz-Light.otf._n_a_m_e.ttx src/YanoneKaffeesatz-Light.otf._m_a_x_p.ttx src/YanoneKaffeesatz-Light.otf._h_m_t_x.ttx src/YanoneKaffeesatz-Light.otf._h_h_e_a.ttx src/YanoneKaffeesatz-Light.otf._h_e_a_d.ttx src/YanoneKaffeesatz-Light.otf._c_m_a_p.ttx src/YanoneKaffeesatz-Light.otf.O_S_2f_2.ttx src/YanoneKaffeesatz-Light.otf.GlyphOrder.ttx src/YanoneKaffeesatz-Light.otf.G_S_U_B_.ttx src/YanoneKaffeesatz-Light.otf.G_P_O_S_.ttx src/YanoneKaffeesatz-Light.otf.G_D_E_F_.ttx src/YanoneKaffeesatz-Light.otf.C_F_F_.ttx src/YanoneKaffeesatz-ExtraLight.otf._p_o_s_t.ttx src/YanoneKaffeesatz-ExtraLight.otf._n_a_m_e.ttx src/YanoneKaffeesatz-ExtraLight.otf._m_a_x_p.ttx src/YanoneKaffeesatz-ExtraLight.otf._h_m_t_x.ttx src/YanoneKaffeesatz-ExtraLight.otf._h_h_e_a.ttx src/YanoneKaffeesatz-ExtraLight.otf._h_e_a_d.ttx src/YanoneKaffeesatz-ExtraLight.otf._c_m_a_p.ttx src/YanoneKaffeesatz-ExtraLight.otf.O_S_2f_2.ttx src/YanoneKaffeesatz-ExtraLight.otf.GlyphOrder.ttx src/YanoneKaffeesatz-ExtraLight.otf.G_S_U_B_.ttx src/YanoneKaffeesatz-ExtraLight.otf.G_P_O_S_.ttx src/YanoneKaffeesatz-ExtraLight.otf.G_D_E_F_.ttx src/YanoneKaffeesatz-ExtraLight.otf.C_F_F_.ttx src/YanoneKaffeesatz-Bold.otf._p_o_s_t.ttx src/YanoneKaffeesatz-Bold.otf._n_a_m_e.ttx src/YanoneKaffeesatz-Bold.otf._m_a_x_p.ttx src/YanoneKaffeesatz-Bold.otf._h_m_t_x.ttx src/YanoneKaffeesatz-Bold.otf._h_h_e_a.ttx src/YanoneKaffeesatz-Bold.otf._h_e_a_d.ttx src/YanoneKaffeesatz-Bold.otf._c_m_a_p.ttx src/YanoneKaffeesatz-Bold.otf.O_S_2f_2.ttx src/YanoneKaffeesatz-Bold.otf.GlyphOrder.ttx src/YanoneKaffeesatz-Bold.otf.G_S_U_B_.ttx src/YanoneKaffeesatz-Bold.otf.G_P_O_S_.ttx src/YanoneKaffeesatz-Bold.otf.G_D_E_F_.ttx src/YanoneKaffeesatz-Bold.otf.C_F_F_.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources
+### (2 of 6) pyfontaine
+### (3 of 6) Run upstream tests
+$ fontbakery-check.py upstream-repo sources
+$ fontaine --collections subsets --text /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Bold.otf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-ExtraLight.otf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Light.otf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Regular.otf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Bold.ttf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-ExtraLight.ttf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Light.ttf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Regular.ttf.ttx > fontaine.txt
+WARNING: Please install [PyICU](https://pypi.python.org/pypi/PyICU) toenable [feature], perhaps with: pip install pyicu
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_contours(): OK
+end of pyfontaine process
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_prepolation_glyph_points(): OK
+bakery_lint.tests.upstream.test_prepolation.FontTestPrepolation.test_font_test_prepolation_glyph_names(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_component(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_mark_to_mark(): OK
+bakery_lint.tests.upstream.test_diacritic.TestDiacritic.test_diacritic_made_as_own_glyphs(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_bakery_yaml_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_copyright_notices_same_across_family(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_description_html_exists(): OK
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_fontlog_txt_exists(): FAIL
+bakery_lint.tests.upstream.test_check_upstream_sources.ProjectUpstreamTestCase.test_metadata_json_exists(): OK
+$ fontbakery-check.py upstream-ttx YanoneKaffeesatz-Bold.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Bold.otf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx YanoneKaffeesatz-ExtraLight.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-ExtraLight.otf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatzExtraLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): FAIL
+$ fontbakery-check.py upstream-ttx YanoneKaffeesatz-Light.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Light.otf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatzLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx YanoneKaffeesatz-Regular.otf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): OK
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Regular.otf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): OK
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx YanoneKaffeesatz-Bold.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Bold.ttf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Bold.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx YanoneKaffeesatz-ExtraLight.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-ExtraLight.ttf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatzExtraLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): FAIL
+$ fontbakery-check.py upstream-ttx YanoneKaffeesatz-Light.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Light.ttf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatzLight-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+$ fontbakery-check.py upstream-ttx YanoneKaffeesatz-Regular.ttf.ttx
+bakery_lint.tests.upstream.test_glyphname_does_not_contain_disallowed_chars.TestGlyphNameDoesNotContainsDisallowedChars.test_glyphname_does_not_contain_disallowed_chars(): FAIL
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): FAIL
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Regular.ttf.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Regular.ttx
+bakery_lint.tests.upstream.test_font_filename_eq_familystyle.TestTTFSourceFontFileNameEqualsFamilyStyle.test_source_ttf_font_filename_equals_familystyle(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_epar_in_keys(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_os2_in_keys(): OK
+bakery_lint.tests.upstream.test_check_ttx_requirements.SourceTTXTest.test_ttx_doesnt_contain_duplicate_glyphs(): FAIL
+bakery_lint.tests.upstream.test_check_ttx_fontfamily_recommendations.TTX_FontFamilyNamingTest.test_ttx_family_naming_recommendation(): OK
+### (4 of 6) Convert sources to TTF
+$ ttx -d /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Regular.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatzLight-Regular.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatzExtraLight-Regular.ttx /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Bold.ttx
+Compiling "/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Regular.ttx" to "/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatzLight-Regular.ttx" to "/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatzExtraLight-Regular.ttx" to "/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+Compiling "/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/sources/YanoneKaffeesatz-Bold.ttx" to "/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf"...
+Parsing 'GlyphOrder' table...
+Parsing 'head' table...
+Parsing 'hhea' table...
+Parsing 'maxp' table...
+Parsing 'OS/2' table...
+Parsing 'hmtx' table...
+Parsing 'cmap' table...
+Parsing 'fpgm' table...
+Parsing 'prep' table...
+Parsing 'cvt ' table...
+Parsing 'loca' table...
+Parsing 'glyf' table...
+Parsing 'name' table...
+Parsing 'post' table...
+Parsing 'gasp' table...
+Parsing 'FFTM' table...
+Parsing 'GDEF' table...
+Parsing 'GPOS' table...
+Parsing 'GSUB' table...
+### Test YanoneKaffeesatz-Regular.ttf
+$ fontbakery-check.py result YanoneKaffeesatz-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Copyright string in the English (US) language.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): FAIL
+$ fontbakery-fix-vertical-metrics.py --autofix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+$ fontbakery-fix-vertical-metrics.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+Parameter              YanoneKaffeesatz-Regular.ttf    YanoneKaffeesatz-Bold.ttf    YanoneKaffeesatzExtraLight-Regular.ttf    YanoneKaffeesatzLight-Regular.ttf    
+ymax                   957                             963                          947                                       951                                  
+hhea.ascent            963                             963                          963                                       963                                  
+OS/2.sTypoAscender     963                             963                          963                                       963                                  
+OS/2.usWinAscent       963                             963                          963                                       963                                  
+ymin                   -255                            -266                         -235                                      -242                                 
+hhea.descent           -266                            -266                         -266                                      -266                                 
+OS/2.sTypoDescender    -266                            -266                         -266                                      -266                                 
+OS/2.usWinDescent      266                             266                          266                                       266                                  
+hhea.lineGap           0                               0                            0                                         0                                    
+OS/2.sTypoLineGap      0                               0                            0                                         0                                    
+hhea total             1229                            1229                         1229                                      1229                                 
+typo total             1229                            1229                         1229                                      1229                                 
+win total              1229                            1229                         1229                                      1229                                 
+UPM:Heights            1000:1212                       1000:1229                    1000:1182                                 1000:1193                            
+UPM:Heights %          121 %                           122 %                        118 %                                     119 %                                
+
+
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF YanoneKaffeesatz-Regular.ttf
+$ ls -l 'YanoneKaffeesatz-Regular.ttf'* # look at the size savings of that subset process
+YanoneKaffeesatz-Regular.ttf.opt: 87944 bytes
+YanoneKaffeesatz-Regular.ttf: 92112 bytes
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf.opt /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+### Autohint TTFs (ttfautohint) YanoneKaffeesatz-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf '/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf: 87944 bytes
+/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.autohint.ttf: 73924 bytes
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.autohint.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+### Subset TTFs (pyftsubset) YanoneKaffeesatz-Regular.ttf
+$ pyftsubset YanoneKaffeesatz-Regular.latin
+$ pyftsubset YanoneKaffeesatz-Regular.menu
+strippedname:/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Regular.ttf
+spaceWidth is    158
+nbspWidth is     158
+Nothing to do
+### Test YanoneKaffeesatzLight-Regular.ttf
+$ fontbakery-check.py result YanoneKaffeesatzLight-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Copyright string in the English (US) language.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF YanoneKaffeesatzLight-Regular.ttf
+$ ls -l 'YanoneKaffeesatzLight-Regular.ttf'* # look at the size savings of that subset process
+YanoneKaffeesatzLight-Regular.ttf.opt: 87100 bytes
+YanoneKaffeesatzLight-Regular.ttf: 91316 bytes
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf.opt /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+### Autohint TTFs (ttfautohint) YanoneKaffeesatzLight-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf '/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf: 87100 bytes
+/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.autohint.ttf: 74044 bytes
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.autohint.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+### Subset TTFs (pyftsubset) YanoneKaffeesatzLight-Regular.ttf
+$ pyftsubset YanoneKaffeesatzLight-Regular.latin
+$ pyftsubset YanoneKaffeesatzLight-Regular.menu
+strippedname:/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzLight-Regular.ttf
+spaceWidth is    178
+nbspWidth is     178
+Nothing to do
+### Test YanoneKaffeesatzExtraLight-Regular.ttf
+$ fontbakery-check.py result YanoneKaffeesatzExtraLight-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Copyright string in the English (US) language.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF YanoneKaffeesatzExtraLight-Regular.ttf
+$ ls -l 'YanoneKaffeesatzExtraLight-Regular.ttf'* # look at the size savings of that subset process
+YanoneKaffeesatzExtraLight-Regular.ttf.opt: 81320 bytes
+YanoneKaffeesatzExtraLight-Regular.ttf: 85556 bytes
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf.opt /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+### Autohint TTFs (ttfautohint) YanoneKaffeesatzExtraLight-Regular.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf '/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf: 81320 bytes
+/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.autohint.ttf: 73196 bytes
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.autohint.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+### Subset TTFs (pyftsubset) YanoneKaffeesatzExtraLight-Regular.ttf
+$ pyftsubset YanoneKaffeesatzExtraLight-Regular.latin
+$ pyftsubset YanoneKaffeesatzExtraLight-Regular.menu
+strippedname:/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatzExtraLight-Regular.ttf
+spaceWidth is    190
+nbspWidth is     190
+Nothing to do
+### Test YanoneKaffeesatz-Bold.ttf
+$ fontbakery-check.py result YanoneKaffeesatz-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): FAIL
+$ fontbakery-fix-ascii-fontmetadata.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+bakery_lint.tests.downstream.test_names_are_ascii_only.CheckNamesAreASCIIOnly.test_check_names_are_ascii_only(): OK
+bakery_lint.tests.downstream.test_gpos_table_has_kerning_info.CheckGposTableHasKerningInfo.test_gpos_table_has_kerning_info(): OK
+bakery_lint.tests.downstream.test_gasp_table_value.CheckGaspTableType.test_check_gasp_table_type(): OK
+$ fontbakery-fix-gasp.py --set=15 /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+Warning: Mac string is a subset of the Windows string in the 'name' table
+ for the Copyright string in the English (US) language.
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_paths_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_composite_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_allowed_numbers_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_duplicate_unicode_codepoints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_flipped_reference_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_anchors(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_missing_extrema_in_glyphs(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_overlapped_hints(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_integer_aligned(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_points_are_not_too_far_apart(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_hints_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_postscript_hasnt_limit_points_in_glyphs(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_referenced_glyphs_are_present(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_glyph_names(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_valid_length_instructions(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_glyph_intersect(): FAIL
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_validation_open_contours(): OK
+bakery_lint.tests.downstream.test_fontforge_validation_state.FontForgeValidateStateTest.test_wrong_direction_in_glyphs(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalLinegapMetrics.test_metrics_linegaps_are_zero(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalAscentMetrics.test_metrics_ascents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_vertical_metrics.CheckVerticalDescentMetrics.test_metrics_descents_equal_bbox(): OK
+bakery_lint.tests.downstream.test_check_upm_heights_less_120.TestCheckUPMHeightsLess120.test_check_upm_heigths_less_120(): FAIL
+bakery_lint.tests.downstream.test_check_unused_glyph_data.CheckUnusedGlyphData.test_check_unused_glyph_data(): ERROR
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+$ fontbakery-fix-glyph-private-encoding.py --autofix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+bakery_lint.tests.downstream.test_check_unencoded_glyph.TestFontUnencodedGlyph.test_font_unencoded_glyphs(): FAIL
+bakery_lint.tests.downstream.test_check_panose_identification.CheckPanoseIdentification.test_check_panose_identification(): OK
+bakery_lint.tests.downstream.test_check_os2_width_class.CheckOS2WidthClass.test_check_os2_width_class(): OK
+bakery_lint.tests.downstream.test_check_no_problematic_formats.CheckNoProblematicFormats.test_check_no_problematic_formats(): OK
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+$ fontbakery-fix-nbsp.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+bakery_lint.tests.downstream.test_check_nbsp_width_matches_sp_width.CheckNbspWidthMatchesSpWidth.test_check_nbsp_width_matches_sp_width(): FAIL
+bakery_lint.tests.downstream.test_check_names_same_across_platforms.CheckNamesSameAcrossPlatforms.test_check_names_same_across_platforms(): FAIL
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckStyleNameRecommendation.test_check_stylename_is_under_recommendations(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): FAIL
+$ fontbakery-fix-opentype-names.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFamilyNameRecommendation.test_check_opentype_familyname(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTStyleNameRecommendation.test_check_opentype_stylename(): OK
+bakery_lint.tests.downstream.test_check_name_table_recommendation.CheckOTFullNameRecommendation.test_check_opentype_fullname(): OK
+bakery_lint.tests.downstream.test_check_magic_prep_code.CheckMagicPREPByteCode.test_prep_magic_code(): FAIL
+bakery_lint.tests.downstream.test_check_license_included.CheckLicenseIncluded.test_license_included_in_font_names(): OK
+bakery_lint.tests.downstream.test_check_italic_angle_agreement.CheckItalicAngleAgreement.test_check_italic_angle_agreement(): OK
+bakery_lint.tests.downstream.test_check_hmtx_hhea_max_advance_width_agreement.CheckHmtxHheaMaxAdvanceWidthAgreement.test_check_hmtx_hhea_max_advance_width_agreement(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_euro(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_nbsp(): OK
+bakery_lint.tests.downstream.test_check_glyph_existence.CheckGlyphExistence.test_space(): OK
+bakery_lint.tests.downstream.test_check_glyf_table_length.CheckGlyfTableLength.test_check_glyf_table_length(): FAIL
+bakery_lint.tests.downstream.test_check_full_font_name_begins_with_family_name.CheckFullFontNameBeginsWithFamilyName.test_check_full_font_name_begins_with_family_name(): OK
+bakery_lint.tests.downstream.test_check_fontname_matches_macstyle.CheckFontNameEqualToMacStyleFlags.test_fontname_is_equal_to_macstyle(): FAIL
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): FAIL
+$ fontbakery-fix-dsig.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasDsigTable.test_check_font_has_dsig_table(): OK
+bakery_lint.tests.downstream.test_check_font_tables.CheckFontHasNotKernTable.test_no_kern_table_exists(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFsTypeIsNotSet.test_is_fstype_not_set(): OK
+$ fontbakery-fix-fstype.py --autofix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf.fix /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_em_is_1000(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_font_is_font(): OK
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_latin_file_exists(): FAIL
+bakery_lint.tests.downstream.test_check_font_agreements.CheckFontAgreements.test_menu_file_exists(): FAIL
+### Optimize TTF YanoneKaffeesatz-Bold.ttf
+$ ls -l 'YanoneKaffeesatz-Bold.ttf'* # look at the size savings of that subset process
+YanoneKaffeesatz-Bold.ttf.opt: 86080 bytes
+YanoneKaffeesatz-Bold.ttf: 90260 bytes
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf.opt /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+### Autohint TTFs (ttfautohint) YanoneKaffeesatz-Bold.ttf
+$ ttfautohint -l 7 -r 28 -G 50 -x 13 -w "G" /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf '/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.autohint.ttf'
+
+$ ls -l /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.*ttf # look at the size savings of that subset process
+/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf: 86080 bytes
+/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.autohint.ttf: 75068 bytes
+$ mv /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.autohint.ttf /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+### Subset TTFs (pyftsubset) YanoneKaffeesatz-Bold.ttf
+$ pyftsubset YanoneKaffeesatz-Bold.latin
+$ pyftsubset YanoneKaffeesatz-Bold.menu
+strippedname:/home/travis/build/fontdirectory/yanonekaffeesatz/builds/build/YanoneKaffeesatz-Bold.ttf
+spaceWidth is    141
+nbspWidth is     141
+Nothing to do
+### (5 of 6) Generate METADATA.json (fontbakery-build-metadata.py)
+$ fontbakery-build-metadata.py /home/travis/build/fontdirectory/yanonekaffeesatz/builds/build
+{} exists
+Designer's name from font is: Yanone (Cyrillic: Daniel Pouzeot & Huerta Tipografica)
+Original size: 73196\nGzip size: 37668
+Family Name: Yanone Kaffeesatz
+PS Name: YanoneKaffeesatz-Bold
+Full Name: Yanone Kaffeesatz Bold
+Style: normal
+Weight: 700
+Filename: YanoneKaffeesatz-Bold.ttf
+Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)
+Family Name: Yanone Kaffeesatz
+PS Name: YanoneKaffeesatz-ExtraLight
+Full Name: Yanone Kaffeesatz Extra Light
+Style: normal
+Weight: 200
+Filename: YanoneKaffeesatzExtraLight-Regular.ttf
+Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)
+Family Name: Yanone Kaffeesatz
+PS Name: YanoneKaffeesatz-Light
+Full Name: Yanone Kaffeesatz Light
+Style: normal
+Weight: 300
+Filename: YanoneKaffeesatzLight-Regular.ttf
+Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)
+Family Name: Yanone Kaffeesatz
+PS Name: YanoneKaffeesatz-Regular
+Full Name: Yanone Kaffeesatz
+Style: normal
+Weight: 400
+Filename: YanoneKaffeesatz-Regular.ttf
+Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)
+### (6 of 6) Run tests for METADATA.json
+$ fontbakery-check.py metadata METADATA.json
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_cyrillic(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin(): OK
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_latin_ext(): FAIL
+bakery_lint.tests.metadata_test.MetadataSubsetsListTest.test_charset_menu(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_more_than_500b(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_description_is_valid_html(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_daltonmaag_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontbureau_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontscom_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontshop_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_fontsmith_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_houseind_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_myfonts_catalogue(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_does_not_familyName_exist_in_veer_catalogue(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_family_is_listed_in_gwf(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_atleast_latin_menu_subsets_exist(): OK
+/home/travis/virtualenv/python2.7.8/lib/python2.7/site-packages/bakery_lint/tests/metadata_test.py:141: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  self.assertTrue(designer in designers,
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_designer_exists_in_profiles_csv(): FAIL
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_items_dicts(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_fonts_no_dupes(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_has_unique_style_weight_pairs(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_license(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_no_unknown_top_keys(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_subsets_key_list(): OK
+bakery_lint.tests.metadata_test.MetadataTest.test_metadata_top_keys_types(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_contains_correct_rfn(): FAIL
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_is_consistent_across_family(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_copyright_matches_pattern(): OK
+bakery_lint.tests.downstream.test_metadata_font_copyright.CheckMetadataContainsReservedFontName.test_metadata_copyright_size(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestFontOnDiskFamilyEqualToMetadataJSON.test_font_on_disk_family_equal_in_metadata_json(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.TestPostScriptNameInMetadataEqualFontOnDisk.test_postscriptname_in_metadata_equal_to_font_on_disk(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_font_name_matches_family(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_family_values_are_all_the_same(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_filename_matches_postscriptname(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_font_have_regular(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fonts_fields_have_fontname(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_is_equal_to_internal_font_fullname(): ERROR
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_fullname_matches_postScriptName(): FAIL
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_400(): OK
+bakery_lint.tests.downstream.test_metadata_agreements.CheckMetadataAgreements.test_metadata_regular_is_normal(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_copyrighttxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_description_exists(): OK
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_fontlogtxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_text_files_exist.CheckTextFilesExist.test_licensetxt_exists(): FAIL
+bakery_lint.tests.downstream.test_check_subsets_exists.CheckSubsetsExist.test_check_subsets_exists(): FAIL
+bakery_lint.tests.downstream.test_check_monospace_agreements.CheckMonospaceAgreement.test_check_monospace_agreement(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckItalicStyleMatchesMacStyle.test_check_italic_style_matches_names(): OK
+bakery_lint.tests.downstream.test_check_metadata_style_matches_names.CheckNormalStyleMatchesMacStyle.test_check_normal_style_matches_names(): ERROR
+bakery_lint.tests.downstream.test_check_metadata_matches_nametable.CheckMetadataMatchesNameTable.test_check_metadata_matches_nametable(): ERROR
+bakery_lint.tests.downstream.test_check_metadata_fields.CheckMetadataFields.test_check_metadata_fields(): OK
+bakery_lint.tests.downstream.test_check_menu_contains_proper_glyphs.CheckMenuSubsetContainsProperGlyphs.test_check_menu_contains_proper_glyphs(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_encodings_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_names_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_glyph_consistency.CheckGlyphConsistencyInFamily.test_the_same_number_of_glyphs_across_family(): ERROR
+bakery_lint.tests.downstream.test_check_font_name_not_in_camelcase.CheckFontNameNotInCamelCase.test_fontname_not_in_camel_case(): OK
+bakery_lint.tests.downstream.test_check_files_menu_agreements.CheckFontsMenuAgreements.test_menu_file_agreement(): FAIL
+bakery_lint.tests.downstream.test_check_familyname_matches_fontnames.CheckFamilyNameMatchesFontNames.test_check_familyname_matches_fontnames(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckCanonicalWeights.test_check_canonical_weights(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckPostScriptNameMatchesWeight.test_postscriptname_contains_correct_weight(): OK
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFontWeightSameAsInMetadata.test_font_weight_same_as_in_metadata(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_weights.CheckFullNameEqualCanonicalName.test_metadata_contains_current_font(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_styles.CheckCanonicalStyles.test_check_canonical_styles(): ERROR
+bakery_lint.tests.downstream.test_check_canonical_filenames.CheckCanonicalFilenames.test_check_canonical_filenames(): OK
+{
+  "name": "Yanone Kaffeesatz", 
+  "designer": "Multiple Designers", 
+  "license": "OFL", 
+  "visibility": "External", 
+  "category": "Sans Serif", 
+  "size": 39032, 
+  "fonts": [
+    {
+      "name": "Yanone Kaffeesatz", 
+      "postScriptName": "YanoneKaffeesatz-Bold", 
+      "fullName": "Yanone Kaffeesatz Bold", 
+      "style": "normal", 
+      "weight": 700, 
+      "filename": "YanoneKaffeesatz-Bold.ttf", 
+      "copyright": "Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)"
+    }, 
+    {
+      "name": "Yanone Kaffeesatz", 
+      "postScriptName": "YanoneKaffeesatz-ExtraLight", 
+      "fullName": "Yanone Kaffeesatz Extra Light", 
+      "style": "normal", 
+      "weight": 200, 
+      "filename": "YanoneKaffeesatzExtraLight-Regular.ttf", 
+      "copyright": "Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)"
+    }, 
+    {
+      "name": "Yanone Kaffeesatz", 
+      "postScriptName": "YanoneKaffeesatz-Light", 
+      "fullName": "Yanone Kaffeesatz Light", 
+      "style": "normal", 
+      "weight": 300, 
+      "filename": "YanoneKaffeesatzLight-Regular.ttf", 
+      "copyright": "Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)"
+    }, 
+    {
+      "name": "Yanone Kaffeesatz", 
+      "postScriptName": "YanoneKaffeesatz-Regular", 
+      "fullName": "Yanone Kaffeesatz", 
+      "style": "normal", 
+      "weight": 400, 
+      "filename": "YanoneKaffeesatz-Regular.ttf", 
+      "copyright": "Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipografica (info@huertatipografica.com.ar)"
+    }
+  ], 
+  "subsets": [
+    "latin", 
+    "menu"
+  ], 
+  "dateAdded": "2010-05-11"
+}

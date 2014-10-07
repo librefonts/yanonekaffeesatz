@@ -1,0 +1,410 @@
+Fonts
+  All fonts have the same character sets.
+  Font:
+    Common name: Yanone Kaffeesatz
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipográfica (info@huertatipografica.com.ar)
+    License: SIL Open Font License
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    Vendor: Yanone
+    Vendor url: http://yanone.de
+    Designer: Yanone (Cyrillic: Daniel Pouzeot & Huerta Tipografica)
+    Designer url: http://yanone.de
+    Glyph count: 487
+    Character count: 462
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 13
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Yanone Kaffeesatz Extra Light
+    Sub family: Extra Light
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipográfica (info@huertatipografica.com.ar)
+    License: SIL Open Font License
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    Vendor: Yanone
+    Vendor url: http://yanone.de
+    Designer: Yanone (Cyrillic: Daniel Pouzeot & Huerta Tipografica)
+    Designer url: http://yanone.de
+    Glyph count: 487
+    Character count: 462
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 13
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Yanone Kaffeesatz Light
+    Sub family: Light
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipográfica (info@huertatipografica.com.ar)
+    License: SIL Open Font License
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    Vendor: Yanone
+    Vendor url: http://yanone.de
+    Designer: Yanone (Cyrillic: Daniel Pouzeot & Huerta Tipografica)
+    Designer url: http://yanone.de
+    Glyph count: 487
+    Character count: 462
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 13
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Yanone Kaffeesatz
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipográfica (info@huertatipografica.com.ar)
+    License: SIL Open Font License
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    Vendor: Yanone
+    Vendor url: http://yanone.de
+    Designer: Yanone (Cyrillic: Daniel Pouzeot & Huerta Tipografica)
+    Designer url: http://yanone.de
+    Glyph count: 487
+    Character count: 462
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 13
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Yanone Kaffeesatz
+    Sub family: Bold
+    Weight: bold
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipográfica (info@huertatipografica.com.ar)
+    License: SIL Open Font License
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    Vendor: Yanone
+    Vendor url: http://yanone.de
+    Designer: Yanone (Cyrillic: Daniel Pouzeot & Huerta Tipografica)
+    Designer url: http://yanone.de
+    Glyph count: 490
+    Character count: 462
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 13
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Yanone Kaffeesatz Extra Light
+    Sub family: Extra Light
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipográfica (info@huertatipografica.com.ar)
+    License: SIL Open Font License
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    Vendor: Yanone
+    Vendor url: http://yanone.de
+    Designer: Yanone (Cyrillic: Daniel Pouzeot & Huerta Tipografica)
+    Designer url: http://yanone.de
+    Glyph count: 490
+    Character count: 462
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 13
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Yanone Kaffeesatz Light
+    Sub family: Light
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipográfica (info@huertatipografica.com.ar)
+    License: SIL Open Font License
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    Vendor: Yanone
+    Vendor url: http://yanone.de
+    Designer: Yanone (Cyrillic: Daniel Pouzeot & Huerta Tipografica)
+    Designer url: http://yanone.de
+    Glyph count: 490
+    Character count: 462
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 13
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23
+  Font:
+    Common name: Yanone Kaffeesatz
+    Sub family: Regular
+    Weight: normal
+    Fixed width: no
+    Fixed sizes: yes
+    Copyright: Copyright (c) 2004-2010, Jan Gerner (post@yanone.de). Copyright (c) Huerta Tipográfica (info@huertatipografica.com.ar)
+    License: SIL Open Font License
+    License url: http://scripts.sil.org/OFL
+    Version: Version 1.100;PS 001.100;hotconv 1.0.70;makeotf.lib2.5.58329 DEVELOPMENT
+    Vendor: Yanone
+    Vendor url: http://yanone.de
+    Designer: Yanone (Cyrillic: Daniel Pouzeot & Huerta Tipografica)
+    Designer url: http://yanone.de
+    Glyph count: 490
+    Character count: 462
+    Orthographies:
+        Orthography:
+          Common name: Subset vietnamese
+          Support level: fragmentary
+          Percent coverage: 3
+        Orthography:
+          Common name: Subset cyrillic-ext
+          Support level: fragmentary
+          Percent coverage: 1
+        Orthography:
+          Common name: Subset latin
+          Support level: partial
+          Percent coverage: 98
+        Orthography:
+          Common name: Subset cyrillic
+          Support level: full
+        Orthography:
+          Common name: Subset cyrillic-menu
+          Support level: full
+        Orthography:
+          Common name: Subset greek
+          Support level: fragmentary
+          Percent coverage: 4
+        Orthography:
+          Common name: Subset latin-ext
+          Support level: fragmentary
+          Percent coverage: 13
+        Orthography:
+          Common name: Subset vietnamese-menu
+          Support level: partial
+          Percent coverage: 80
+        Orthography:
+          Common name: Subset greek-menu
+          Support level: fragmentary
+          Percent coverage: 23

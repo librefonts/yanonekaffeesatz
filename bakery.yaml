@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [YanoneKaffeesatz-Regular.ttf.ttx, YanoneKaffeesatz-Light.ttf.ttx,
+  YanoneKaffeesatz-ExtraLight.ttf.ttx, YanoneKaffeesatz-Bold.ttf.ttx, src/YanoneKaffeesatz-Regular.otf.ttx,
+  src/YanoneKaffeesatz-Light.otf.ttx, src/YanoneKaffeesatz-ExtraLight.otf.ttx, src/YanoneKaffeesatz-Bold.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
